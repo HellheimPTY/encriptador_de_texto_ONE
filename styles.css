@@ -1,0 +1,55 @@
+body{ 
+    background-color: black;
+    font-style: italic;
+    color:whitesmoke;
+    font-size: 18px;
+
+}
+header{
+
+    margin-bottom: 4rem;
+    font-size: 1.5rem;
+}
+
+img{
+    width: auto;
+    height: 3rem;
+    float: left;
+}
+    
+textarea{
+    width: 700px;
+    height: 150px;
+    color: whitesmoke;
+    background-color: transparent;
+    border: none;
+    resize:none;
+    font-size: 26px;
+    font-style: italic;
+    text-align: center;
+    transition: 2s;
+}
+
+.texto, .respuesta, .boton, .copiar{
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 16px;
+}
+
+#encriptar, #desencriptar, #copiarTexto{
+    width:105px;
+    height: 36px;
+    font-size: 11px;
+    font-display: center;
+    display: inline-block;
+    color: white;
+    background-color: black;
+    transition: 2s;
+    border-color: aliceblue;
+    border: ridge;
+    margin: 3px;
+    cursor: pointer;
+}
+#copiarTexto {
+    display: none;
+}
