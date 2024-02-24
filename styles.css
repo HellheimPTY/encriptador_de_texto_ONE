@@ -22,7 +22,7 @@ textarea{
     height: 150px;
     color: whitesmoke;
     background-color: transparent;
-    border: none;
+    border-color: whitesmoke;
     resize:none;
     font-size: 26px;
     font-style: italic;
@@ -50,8 +50,14 @@ textarea{
     margin: 3px;
     cursor: pointer;
 }
-#copiarTexto {
+#copiarTexto, #textoencriptado{
     display: none;
+}
+#dance{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 38%; 
 }
 @media only screen and (width <= 768px) and (height <= 1174px) {
 
@@ -59,6 +65,12 @@ textarea{
         width: 400px;
         height: 100px;
         font-size: 16px;
+    }
+    #dance{
+        width: 300px;
+        height: 300px;
+        left: 28%;
+
     }
 }
 
@@ -83,5 +95,11 @@ textarea{
         height: 25px;
         font-size: 10px;
     }
-    
+    #dance{
+        width: 250px;
+        height: 250px;
+        left: 14% ;
+
+
+    }
 }

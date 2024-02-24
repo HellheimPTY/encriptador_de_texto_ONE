@@ -11,7 +11,9 @@ let codigo = [
 
 const remplazar = (all) =>{
     textoEncriptado.innerHTML = all
-    copiarTexto.style.display ="inline-block"
+    copiarTexto.style.display = "inline-block"
+    textoencriptado.style.display = "inline-block"
+    dance.style.display = "none"
     
 }
 
@@ -47,9 +49,10 @@ function copiar(){
     copiado.select();
     document.execCommand('copy');
     //reeniciar o limpiar todo
-    caja.value =""
-    textoEncriptado.innerHTML = "";
-    copiarTexto.style.display ="none"
+    caja.value = ""
+    textoencriptado.style.display = "none"
+    copiarTexto.style.display = "none"
+    dance.style.display = "inline-block"
     caja.focus();
 
 };
